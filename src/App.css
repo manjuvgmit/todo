@@ -2,12 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Operator Mono A", "Operator Mono B", "Source Code Pro", Menlo,
+    Consolas, Monaco, monospace;
+  line-height: 1.4;
+  max-width: 600px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.4;
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 
 a {
@@ -22,12 +24,47 @@ a {
 .btn {
   display: inline-block;
   border: none;
-  background: #555555;
+  /* background: #555555; */
+  background: #8965e0;
   color: #ffffff;
   padding: 7px 20px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #666666;
+  background: #5603ad;
 }
+
+/* --blue: #5e72e4;
+    --indigo: #5603ad;
+    --purple: #8965e0;
+    --pink: #f3a4b5;
+    --red: #f5365c;
+    --orange: #fb6340;
+    --yellow: #ffd600;
+    --green: #2dce89;
+    --teal: #11cdef;
+    --cyan: #2bffc6;
+    --gray: #8898aa;
+    --gray-dark: #32325d;
+    --light: #ced4da;
+    --lighter: #e9ecef;
+    --primary: #5e72e4;
+    --secondary: #f7fafc;
+    --success: #2dce89;
+    --info: #11cdef;
+    --warning: #fb6340;
+    --danger: #f5365c;
+    --light: #adb5bd;
+    --dark: #212529;
+    --default: #172b4d;
+    --white: #fff;
+    --neutral: #fff;
+    --darker: #000;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: Open Sans,sans-serif;
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */

@@ -14,6 +14,7 @@ export class TodoItem extends Component {
             checked={completed ? "checked" : ""}
             onChange={toggleComplete.bind(this, todo)}
           />
+          &nbsp;
           <label htmlFor={id}>{title}</label>
           <button style={closeBtnStyle} onClick={deleteTodo.bind(this, todo)}>
             X
@@ -27,7 +28,9 @@ export class TodoItem extends Component {
     return {
       textDecoration: this.props.todo.completed ? "line-through" : "none",
       padding: "10px",
-      background: "#f4f4f4",
+      // background: "#f4f4f4",
+      background: "#fff6ea",
+      color: "#2e2f3e",
       borderBottom: "2px #ccc dotted",
     };
   };
